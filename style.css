@@ -1,0 +1,161 @@
+body{
+  background-color: black;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+h1, h2, a {
+  margin: 0;
+}
+.div-flex {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 8px;
+  background: #393939;
+  padding: 0 4px 0 8px;
+}
+.div-logo {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  background: #393939;
+}
+.div-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+.logo {
+  display: block;
+  object-fit: cover;
+  border-radius: 100%;
+}
+.title {
+  width: 100%;
+  background: #393939;
+}
+.title h1 {
+  background: #393939;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-size: 24px;
+}
+.menu {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background: #393939;
+}
+.link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  background: #393939;
+  color: #ffffff;
+  height: 100%;
+  padding: 0 8px;
+}
+.link:hover {
+  background: #F65050;
+  text-decoration: underline;
+}
+.main {
+  width: 100%;
+  height: 400px;
+  display: flex;
+}
+.main-left {
+  width: 60%;
+  height: 400px;
+}
+.main-right {
+  width: 40%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.main-right-top {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  padding-bottom: 8px;
+}
+.main-right-bottom {
+  width: 100%;
+  height: 200px;
+}
+
+.champions{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.figure-1{
+  width: 100%;
+  height: 100%;
+}
+.figure-2{
+  width: 50%;
+}
+.figure-3{
+  width: 50%;
+}
+.figure-4{
+  width: 100%;
+  height: 100%;
+  padding: 0 36px;
+}
+
+.mbappe{
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+.mbappe-bottom{
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+.figure-noticias{
+  width: 100%;
+  height: 150px;
+}
+.noticias{
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.div-noticias{
+  margin: 5px 0;
+  width: 267px;
+  height: 240px;
+  display: inline-block;
+}
+
+.p-noticias{
+  padding: 8px;
+  background:#393939;
+  color: #ffffff;
+  padding-bottom: 5px;
+}
+
+.footer{
+  background-color: #393939;
+  height: 30px;
+  color: #ffffff;
+}
+
+
